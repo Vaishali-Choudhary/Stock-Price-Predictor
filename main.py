@@ -12,7 +12,7 @@ st.header('Stock Market Predictor')
 
 start = '2010-01-01'
 end = '2024-05-30'
-stock = st.text_input('Enter Stack Symbol', 'GOOG')
+stock = st.text_input('Enter Stock Symbol', 'GOOG')
 
 data = yf.download(stock, start, end)
 
